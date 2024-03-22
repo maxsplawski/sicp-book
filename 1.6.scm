@@ -27,6 +27,8 @@
 
 (new-if (= 2 3) 0 5)
 
+; sqrt-iter calls itself infinitely during evaluation of the new-if procedure
+
 (define (sqrt-iter guess x)
   (new-if (good-enough? guess x)
           guess

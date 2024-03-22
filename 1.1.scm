@@ -26,6 +26,7 @@
 ; 136
 
 ; Normal order
+; Do not evaluate the operands until their values are needed
 ; First substitute operand expressions for parameters until it obtained an expression involving only primitive operators, then perform the evaluation
 
 ; (f 5)
